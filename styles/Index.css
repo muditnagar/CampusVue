@@ -1,0 +1,214 @@
+body
+{
+background: url("../images/pageBackground.png");
+}
+
+h1
+{
+color:#222121;
+}
+
+h2
+{
+color:#222121;
+}
+
+h4
+{
+color:#222121;
+}
+
+a
+{
+text-decoration: none;
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+#container
+{
+margin-top:75px;
+margin-left:auto;
+margin-right:auto;
+height:390px;
+width:360px;
+border-radius:5px;
+background-color: #6c7c7c;
+box-shadow: 10px 10px 10px #222121;
+}
+
+
+#logocontainer
+{
+background-color: lightgrey;
+margin-left:5px;
+margin-top: 5px;
+width: 350px;
+height:100px;
+float:left;
+border-radius: 7px;
+}
+
+#softwareLogoDivision
+{
+height: 70px;
+width:70px;
+float: left;
+margin-top: 10px;
+margin-left:25px;
+}
+
+#softwareTitleDivision
+{
+height:70px;
+width: 230px;
+float:left;
+margin-top:5px;
+margin-left:15px;
+}
+
+#loginContainer
+{
+height:275px;
+width:350px;
+float:left;
+margin-top:5px;
+margin-left: 5px;
+border-radius:7px;
+background-color:lightgrey;
+}
+
+#loginTitleDivision
+{
+height:40px;
+width:175px;
+float:left;
+margin-top:5px;
+margin-left:135px;
+}
+
+
+
+#usernameNameDivision
+{
+height:40px;
+width:70px;
+float:left;
+margin-left:5px;
+margin-top:15px;
+}
+
+#usernameInputBoxDivision
+{
+height:25px;
+width:230px;
+float:left;
+margin-top:33px;
+margin-left:5px;
+}
+
+#username
+{
+border-radius:5px;
+-moz-width: 225px;
+-webkit-width: 225px;
+width: 220px;
+}
+
+#password
+{
+border-radius: 5px;
+-moz-width : 225px;
+-webkit-width : 225px;
+width: 220px;
+}
+
+
+#passwordNameDivision
+{
+height:40px;
+width:70px;
+float:left;
+margin-left:5px;
+margin-top:5px;
+}
+
+#passwordInputBoxDivision
+{
+height:25px;
+width:230px;
+float:left;
+margin-top:23px;
+margin-left:5px;
+}
+
+#usernameErrorIconDivision
+{
+height:29px;
+width:29px;
+float:left;
+margin-top:29px;
+}
+
+#usernameErrorIcon
+{
+display:none;
+cursor:pointer;
+}
+
+#passwordErrorIcon
+{
+display:none;
+cursor:pointer;
+}
+
+#passwordErrorIconDivision
+{
+height:29px;
+width:29px;
+float:left;
+margin-top:20px;
+}
+
+#loginButtonDivision
+{
+height:25px;
+width:225px;
+float:left;
+margin-top:30px;
+margin-left:80px;
+}
+
+#forgotPasswordDivision
+{
+width:200px;
+height:20px;
+float:left;
+margin-top:20px;
+margin-left:135px;
+font-size: 10pt;
+}
+
+
+#loginButton 
+{
+height:25px;
+float:left;
+width:225px;
+background: gray;  
+background-image: linear-gradient(to bottom, gray, #423642);
+border-radius: 5px;
+font-family: Georgia;
+color: #ffffff;
+font-size: 16px;
+}
+
+#loginButton:hover 
+{
+cursor:pointer;
+background: #403540;
+background-image: linear-gradient(to bottom, #403540, gray);
+}

@@ -1,0 +1,157 @@
+body
+{
+background: #222121;
+}
+
+#container
+{
+margin-left:auto;
+margin-right: auto;
+margin-top:50px;
+height:545px;
+width:470px;
+border-radius: 15px;
+background: url("../images/pageBackground.png");
+}
+
+#innerContainer
+{
+float : left;
+margin-left : 5px;
+margin-top : 5px; 
+height:525px;
+width:450px;
+border-radius: 15px;
+border : 5px solid #222121;
+background-color : url("../images/pageBackground.png");
+}
+
+#logocontainer
+{
+background-color: lightgrey;
+margin-left: 50px;
+margin-top: 15px;
+width: 350px;
+height:73px;
+float:left;
+}
+
+#softwareLogoDivision
+{
+height: 70px;
+width:70px;
+float: left;
+margin-top:2px;
+margin-left:5px;
+}
+
+#softwareTitleDivision
+{
+height:70px;
+width: 250px;
+float:left;
+margin-left:20px;
+}
+
+#welcomeUserDivision
+{
+float:left;
+width:350px;
+height:30px;
+margin-left:60px;
+margin-top:5px;
+}
+
+#welcomeUserSpan1
+{
+width:150px;
+font-size:16pt;
+font-color: #222121;
+font-family: Georgia;
+}
+
+#welcomeUserSpan2
+{
+width:150px;
+font-size:16pt;
+font-color: #222121;
+font-family: Georgia;
+color:#33ABFF;
+}
+
+
+
+#teacherButtonDivision
+{
+float:left;
+width: 150px;
+height:160px;
+margin-top:25px;
+margin-left:50px;
+box-shadow: 2px 2px 5px #222121;
+}
+
+#teacherButtonImage
+{
+margin-left:11px;
+cursor: pointer;
+}
+
+#studentButtonDivision
+{
+float:left;
+width: 150px;
+height:160px;
+margin-top:25px;
+margin-left:50px;
+box-shadow: 2px 2px 5px #222121;
+}
+
+#studentButtonImage
+{
+margin-left:11px;
+cursor: pointer;
+}
+
+#updateProfileButtonDivision
+{
+float:left;
+width: 150px;
+height:160px;
+margin-top:40px;
+margin-left:50px;
+box-shadow: 2px 2px 5px #222121;
+}
+
+#updateProfileButtonImage
+{
+margin-left:11px;
+cursor: pointer;
+}
+
+
+#logoutButtonDivision
+{
+float:left;
+width: 150px;
+height:160px;
+margin-top:40px;
+margin-left:50px;
+box-shadow: 2px 2px 5px #222121;
+}
+
+#logoutButtonImage
+{
+margin-left:11px;
+cursor: pointer;
+}
+
+.textSpan
+{
+width:148px;
+height:25px;
+margin-top:1px;
+margin-left:1px;
+font-size:16pt;
+font-weight: bold;
+}

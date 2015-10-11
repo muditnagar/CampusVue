@@ -1,0 +1,700 @@
+.selectedRow
+{
+color:white;
+background-color: black
+}
+.notSelectedRow
+{
+color:black;
+background-color: white;
+}
+
+body
+{
+background: #222121;
+}
+
+#container
+{
+margin-left:auto;
+margin-right:auto;
+margin-top:10px;
+height: 630px;
+width: 900px;
+border-radius: 15px;
+background:  url("../images/pageBackground.png");
+}
+
+#softwareTitleDivision
+{
+height:70px;
+width: 200px;
+float:left;
+margin-left:350px;
+margin-top :5px;
+}
+
+#studentsGridContainer
+{
+float: left;
+margin-left:60px;
+width: 750px;
+border: 1px solid black;
+padding: 10px;
+}
+
+.moduleTitle
+{
+float: left;
+font-size: 18pt;
+font-weight: bold;
+}
+
+#backButtonDivision
+{
+float:right;
+margin-right:5px;
+
+}
+
+#moduleIconsToolStrip
+{
+float: right;
+margin-right:7px;
+}
+
+.moduleIcon
+{
+cursor: pointer;
+}
+
+#studentsGrid
+{
+width: 730px;
+border-collapse: collapse;
+border-spacing: 0px;
+border: 1px solid black;
+float:left;
+}
+
+#studentsGrid thead
+{
+background-color: lightGray;
+}
+
+#studentsGrid thead tr
+{
+position: relative;
+display: block;
+}
+
+#studentsGrid thead th
+{
+border: 1px solid Black;
+width: 70px;
+min-width: 70px;
+}
+
+#studentsGrid thead th + th
+{
+border: 1px solid Black;
+width: 100px;
+min-width: 100px;
+}
+
+#studentsGrid thead th + th + th
+{
+border: 1px solid Black;
+width: 330px;
+min-width: 330px;
+}
+
+#studentsGrid thead th + th + th + th
+{
+border: 1px solid Black;
+width: 230px;
+min-width: 230px;
+}
+
+#studentsGrid td
+{
+border: 1px solid Black;
+width: 70px;
+min-width: 70px;
+}
+
+#studentsGrid td + td
+{
+border: 1px solid Black;
+width: 100px;
+min-width: 100px;
+}
+
+#studentsGrid td + td + td
+{
+border: 1px solid Black;
+width: 330px;
+min-width: 330px;
+}
+
+#studentsGrid td + td + td + td
+{
+border: 1px solid Black;
+width: 230px;
+min-width: 230px;
+}
+
+#studentsGrid tbody
+{
+min-height: 100px;
+height: 180px;
+min-height: 180px;
+overflow-x: hidden;
+overflow-y: auto;
+display: block;
+}
+
+#studentsGrid tbody tr
+{
+cursor: pointer;
+}
+
+#studentDetailsPanel
+{
+margin-top:5px;
+width: 770px;
+height: 220px;
+border: 1px solid black;
+float:left;
+margin-left:60px;
+}
+
+#detailsSpan
+{
+margin-top: 20px;
+font-size:15pt;
+float:left;
+width:700px;
+margin-left:60px;
+}
+
+#studentDetailsPanelTable
+{
+margin-top:10px;
+float:left;
+margin-left:10px;
+}
+
+#studentDetailsPanelTable td
+{
+width: 100px;
+min-width: 100px;
+border: 5px solid white;
+}
+
+#studentDetailsPanelTable td + td
+{
+width: 100px;
+min-width: 100px;
+}
+
+#studentDetailsPanelTable td + td + td
+{
+width: 95px;
+min-width: 95px;
+}
+
+#studentDetailsPanelTable td + td + td + td
+{
+width: 200px;
+min-width: 100px;
+}
+
+#studentDetailsPanelTable td + td + td + td + td
+{
+width: 105px;
+min-width: 105px;
+}
+
+#studentDetailsPanelTable td + td + td + td + td + td
+{
+width: 100px;
+min-width: 100px;
+}
+
+
+#studentsAddWindowMask
+{
+left: 0px;
+top: 0px;
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: 1000;
+text-align: center;
+background: url("../images/mask.png");
+visibility: hidden;
+}
+
+#studentsAddWindow
+{
+margin: 110px auto;
+width: 780px;
+height: 300px;
+border: 1px solid black;
+background:  url("../images/pageBackground.png");
+border-radius: 10px;
+box-shadow: 10px 10px 10px black;
+text-align: left;
+}
+
+#windowTitleLabel
+{
+float: left;
+width: 200px;
+height: 30px;
+font-size:20pt;
+margin-left: 4px;
+margin-top: 4px;
+padding: 2px;
+}
+
+#windowCloseButtonSpan
+{
+float: right;
+margin-right: 5px;
+margin-top: 5px;
+}
+
+#windowClientDivision
+{
+float:left;
+border: 1px solid black;
+margin-left: 5px;
+margin-right:2px;
+margin-top:5px;
+width: 760px;
+height: 240px;
+padding: 4px;
+}
+
+
+#studentsEditWindowMask
+{
+left: 0px;
+top: 0px;
+position: fixed;
+height: 100%;
+width: 100%;
+z-index: 1000;
+text-align: center;
+background: url("../images/mask.png");
+visibility: hidden;
+}
+
+#studentsEditWindow
+{
+margin: 110px auto;
+width: 780px;
+height: 300px;
+border: 1px solid black;
+background:  url("../images/pageBackground.png");
+border-radius: 10px;
+box-shadow: 10px 10px 10px black;
+text-align: left;
+}
+
+#enrollmentNumberLabelDivision
+{
+margin-top: 5px;
+margin-left:5px;
+float:left;
+width: 100px;
+height: 30px;
+}
+
+#enrollmentNumberInputDivision
+{
+margin-top: 5px;
+float:left;
+width: 120px;
+height: 30px;
+}
+
+#enrollmentNumberSpanDivision
+{
+margin-top: 5px;
+float:left;
+width: 120px;
+height: 30px;
+}
+
+#enrollmentNumberSpan
+{
+float:left;
+width: 120px;
+height: 30px;
+}
+
+#enrollmentNumberErrorIconDivision
+{
+margin-top=-2px;
+margin-left=-2px;
+margin-left:5px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#nameLabelDivision
+{
+margin-top: 5px;
+margin-left:30px;
+float:left;
+width: 50px;
+height: 30px;
+}
+
+#nameInputDivision
+{
+margin-top: 5px;
+float:left;
+width: 150px;
+height: 30px;
+}
+
+#nameErrorIconDivision
+{
+margin-left: 5px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#departmentLabelDivision
+{
+margin-top: 5px;
+margin-left: 30px;
+float:left;
+width: 80px;
+height: 30px;
+}
+
+#departmentInputDivision
+{
+margin-top: 5px;
+margin-left: 5px;
+float : left;
+width: 80px;
+height: 30px;
+}
+
+#departmentErrorIconDivision
+{
+margin-top :-2px;
+margin-left :15px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#genderLabelDivision
+{
+margin-top: 15px;
+margin-left: 5px;
+float:left;
+width: 60px;
+height: 30px;
+}
+
+#genderInputDivision
+{
+margin-top: 15px;
+margin-left: 10px;
+float : left;
+width: 80px;
+height: 30px;
+}
+
+#genderErrorIconDivision
+{
+margin-top:10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#dateOfBirthLabelDivision
+{
+margin-top: 15px;
+margin-left: 50px;
+float:left;
+width: 100px;
+height: 30px;
+}
+
+#dateOfBirthInputDivision
+{
+margin-top: 15px;
+float : left;
+width: 155px;
+height: 30px;
+}
+
+#dateOfBirthErrorIconDivision
+{
+margin-top: 10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#yearOfJoiningLabelDivision
+{
+margin-top: 15px;
+margin-left: 30px;
+float:left;
+width: 85px;
+height: 30px;
+}
+
+#yearOfJoiningInputDivision
+{
+margin-top: 15px;
+float : left;
+width: 100px;
+height: 30px;
+}
+
+#yearOfJoiningErrorIconDivision
+{
+margin-top: 10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#collegeLabelDivision
+{
+margin-top: 15px;
+margin-left: 5px;
+float:left;
+width: 70px;
+height: 30px;
+}
+
+#collegeInputDivision
+{
+margin-top: 15px;
+float : left;
+width: 400px;
+height: 30px;
+}
+
+#collegeErrorIconDivision
+{
+margin-top: 10px;
+margin-left:10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#contactNumberLabelDivision
+{
+margin-top: 15px;
+margin-left: 30px;
+float:left;
+width: 90px;
+height: 30px;
+}
+
+#contactNumberInputDivision
+{
+margin-top: 15px;
+float : left;
+width: 100px;
+height: 30px;
+}
+
+#contactNumberErrorIconDivision
+{
+margin-top: 10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#currentYearLabelDivision
+{
+margin-top: 15px;
+margin-left:5px;
+float:left;
+width: 90px;
+height: 30px;
+}
+
+#currentYearInputDivision
+{
+margin-top: 15px;
+margin-left:5px;
+float:left;
+width: 100px;
+height: 30px;
+}
+
+#currentYearErrorIconDivision
+{
+margin-top: 10px;
+margin-left: 5px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#semesterLabelDivision
+{
+margin-top: 15px;
+margin-left:25px;
+float:left;
+width: 70px;
+height: 30px;
+}
+
+#semesterInputDivision
+{
+margin-top: 15px;
+float:left;
+width: 150px;
+height: 30px;
+}
+
+#semesterErrorIconDivision
+{
+margin-top: 10px;
+margin-left: 10px;
+float:left;
+width:27px;
+height:27px;
+}
+
+#yearOfPassingLabelDivision
+{
+margin-top: 15px;
+margin-left:25px;
+float:left;
+width: 90px;
+height: 30px;
+}
+
+#yearOfPassingInputDivision
+{
+margin-top: 15px;
+float:left;
+width: 100px;
+height: 30px;
+}
+
+#yearOfPassingErrorIconDivision
+{
+margin-top: 10px;
+margin-left:3px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#addressLabelDivision
+{
+margin-top: 60px;
+margin-left: -750px;
+float:left;
+width: 80px;
+height: 30px;
+}
+
+#addressInputDivision
+{
+margin-top: 60px;
+margin-left: -680px;
+float:left;
+width: 250px;
+height: 30px;
+}
+
+#addressErrorIconDivision
+{
+margin-top:10px;
+margin-left: 490px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#collegeIDLabelDivision
+{
+margin-top: 15px;
+margin-left: 25px;
+float : left;
+width: 170px;
+height: 30px;
+}
+
+#collegeIDInputDivision
+{
+margin-top: -30px;
+margin-left: 630px;
+float : left;
+width: 100px;
+height: 30px;
+}
+
+#collegeIDErrorIconDivision
+{
+margin-top: -30px;
+margin-left: 735px;
+float:left;
+width:27px;
+height:27px;
+}
+
+
+#addStudentButtonDivision
+{
+float:left;
+width: 70px;
+height:30px;
+margin-left:360px;
+}
+
+#passwordLabelDivision
+{
+margin-top: 15px;
+margin-left:120px;
+float:left;
+width: 70px;
+height: 30px;
+}
+
+#passwordInputDivision
+{
+margin-top: 15px;
+margin-left:5px;
+float : left;
+width: 100px;
+height: 30px;
+}
+
+#passwordErrorIconDivision
+{
+margin-top: 10px;
+margin-left:5px;
+float:left;
+width:27px;
+height:27px;
+}
